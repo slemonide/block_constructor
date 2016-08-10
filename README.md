@@ -48,5 +48,5 @@ will be determined randomly.
 *   block_constructor:light
 
 ## Miscellaneous
-block_constructor:light will be an invisible block of type air with light value
+**block_constructor:light** will be an invisible block of type air with light value
 set to it. It can be used to illuminate some blocks with poor illumination.

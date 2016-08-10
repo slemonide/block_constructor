@@ -40,12 +40,12 @@ will be determined randomly.
 
 
 ## Included building blocks
-*block_constructor:wall
-*block_constructor:ceiling
-*block_constructor:floor
-*block_constructor:carpet
-*block_constructor:lamp
-*block_constructor:light
+*   block_constructor:wall
+*   block_constructor:ceiling
+*   block_constructor:floor
+*   block_constructor:carpet
+*   block_constructor:lamp
+*   block_constructor:light
 
 ## Miscellaneous
 block_constructor:light will be an invisible block of type air with light value
