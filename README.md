@@ -20,12 +20,11 @@ Has a field called *neightbours*
     Example: neightbours = {(x1,y1,z1) = ["name1", "group:group1", ..], (x2,y2,z2) = ... }
 
 ### Cube
-
-    A part of a bigger construction. A Cube is spawned by Cube Spawner.
-    Simply a decorative element.
+A part of a bigger construction. A Cube is spawned by Cube Spawner.
+Simply a decorative element.
     
-    A cube will be stored as an .mts file or as a function of position in the
-    local coordinate system of the cube.
+A cube will be stored as an .mts file or as a function of position in the
+local coordinate system of the cube.
 
 ## Actions
 ### Cube Spawner Replication
