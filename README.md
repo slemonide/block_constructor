@@ -32,7 +32,7 @@ See **Loading** for details.
 
 ## Actions
 ### Cube Spawner Replication
-Cube spawners will replicate at certain time intervals in all directions that
+Cube spawners will replicate in certain conditions in all directions that
 are set by *neightbours* field and *not occupied* by other cube spawners.
 
 When choosing which cube spawners are to be placed, **[String]** part of the
@@ -44,6 +44,8 @@ by their own *neightbours* fields in such way so that they will meet
 the cube spawner to be placed (if there is more than one remaining in the list)
 will be determined randomly.
 
+Conditions in which cube spawners will replicate:
+* A player is near
 
 ## Included building blocks
 * block_constructor:wall
@@ -61,7 +63,7 @@ It can be used to illuminate some cubes with poor illumination.
 ## Loading
 
 ## File Structure
-* **init.lua**
+* **init.lua** (contains chat command for adding an arbitrary cube spawner)
 * **cube_spawners.lua** (contains definitions of cube spawners and logic related to
   spawning cubes)
 * **replication.lua** (contains cube spawners replication logic)
