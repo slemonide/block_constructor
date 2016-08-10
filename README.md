@@ -30,6 +30,23 @@ Cube spawners will replicate at certain time intervals in all directions that
 are set by *neightbours* field and *not occupied* by other cube spawners.
 
 When choosing which cube spawners are to be placed, **[String]** part of the
-*neightbours* field will be used. A table will be created that contains all
+*neightbours* field will be used. A table will be created that will contain all
 cube spawners in *groups* listed in **[String]** and all cube spawners with
-*names* listed in **[String]**.
+*names* listed in **[String]**. Then, those cube spawners will be filtered
+by their own *neightbours* fields in such way so that they will meet
+*neightbours* fields of already placed cube spawners. After that,
+the cube spawner to be placed (if there is more than one remaining in the list)
+will be determined randomly.
+
+
+## Included building blocks
+*block_constructor:wall
+*block_constructor:ceiling
+*block_constructor:floor
+*block_constructor:carpet
+*block_constructor:lamp
+*block_constructor:light
+
+## Miscellaneous
+block_constructor:light will be an invisible block of type air with light value
+set to it. It can be used to illuminate some blocks with poor illumination.
