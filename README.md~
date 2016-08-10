@@ -45,8 +45,9 @@ will be determined randomly.
 *   block_constructor:floor
 *   block_constructor:carpet
 *   block_constructor:lamp
-*   block_constructor:light
+*   block_constructor:light{1-14}
 
 ## Miscellaneous
-block_constructor:light will be an invisible block of type air with light value
-set to it. It can be used to illuminate some blocks with poor illumination.
+**block_constructor:light{1-14}** will be a set of invisible blocks of type air
+with light value set to it (it will be equal to the number in the end of the name).
+It can be used to illuminate some blocks with poor illumination.
