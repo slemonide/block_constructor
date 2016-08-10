@@ -11,6 +11,7 @@ A mod for minetest for generating constructions
         name :: String
 
     Has a field called *groups*
+
         groups :: [String]
 
     Has a field called *neightbours*
@@ -22,5 +23,6 @@ A mod for minetest for generating constructions
 * Cube
 
     A part of a bigger construction. A Cube is spawned by Cube Spawner.
-    
     Simply a decorative element.
+
+## Actions
