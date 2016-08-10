@@ -24,7 +24,11 @@ A part of a bigger construction. A Cube is spawned by Cube Spawner.
 Simply a decorative element.
     
 A cube will be stored as an .mts file or as a function of position in the
-local coordinate system of the cube.
+local coordinate system of the cube. When loading a cube from an .mts file,
+blocks that start with *block_constructor:* can be replaced to create a greater
+variety of cubes. Each loaded cube will be assigned its *Cube Spawner* with
+appropriate *name* and *groups*. *Neightbours* is a function of *name* and
+*groups*
 
 ## Actions
 ### Cube Spawner Replication
