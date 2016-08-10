@@ -27,8 +27,8 @@ A cube will be stored as an .mts file or as a function of position in the
 local coordinate system of the cube. When loading a cube from an .mts file,
 blocks that start with *block_constructor:* can be replaced to create a greater
 variety of cubes. Each loaded cube will be assigned its *Cube Spawner* with
-appropriate *name* and *groups*. *Neightbours* is a function of *name* and
-*groups*
+appropriate *name* and *groups*. *Neightbours* is a function of *groups*.
+See **Loading** for details.
 
 ## Actions
 ### Cube Spawner Replication
@@ -46,14 +46,30 @@ will be determined randomly.
 
 
 ## Included building blocks
-*   block_constructor:wall
-*   block_constructor:ceiling
-*   block_constructor:floor
-*   block_constructor:carpet
-*   block_constructor:lamp
-*   block_constructor:light{1-14}
+* block_constructor:wall
+* block_constructor:ceiling
+* block_constructor:floor
+* block_constructor:carpet
+* block_constructor:lamp
+* block_constructor:light{1-14}
 
 ## Miscellaneous
 **block_constructor:light{1-14}** will be a set of invisible blocks of type air
 with light value set to them (it will be equal to the number in the end of the name).
 It can be used to illuminate some cubes with poor illumination.
+
+## Loading
+
+## File Structure
+* init.lua
+* cube_spawners.lua (contains definitions of cube spawners and logic related to
+  spawning cubes)
+* replication.lua (contains cube spawners replication logic)
+* building_blocks.lua (contains included building blocks)
+* add_cubes.lua (contains tools for adding cubes ingame)
+* cubes/
+  * cube_name.lua (contains cube placing function and metadata (name and groups).
+* mts/
+  * cube_name.mts (optional)
+* groups/
+  * group_name.lua (contains )
