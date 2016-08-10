@@ -3,22 +3,21 @@ A mod for minetest for generating constructions
 
 ## Types
 ### Cube Spawner
+Simply an invisible object that gets to be at the *center* of the cube
 
-    Simply an invisible object that gets to be at the *center* of the cube
+Has a field called *name*
 
-    Has a field called *name*
+    name :: String
 
-        name :: String
+Has a field called *groups*
 
-    Has a field called *groups*
+    groups :: [String]
 
-        groups :: [String]
+Has a field called *neightbours*
 
-    Has a field called *neightbours*
-
-        neightbours :: {(Int, Int, Int) = [String]}
+    neightbours :: {(Int, Int, Int) = [String]}
         
-        Example: neightbours = {(x1,y1,z1) = ["name1", "group:group1", ..], (x2,y2,z2) = ... }
+    Example: neightbours = {(x1,y1,z1) = ["name1", "group:group1", ..], (x2,y2,z2) = ... }
 
 ### Cube
 
@@ -26,5 +25,6 @@ A mod for minetest for generating constructions
     Simply a decorative element.
 
 ## Actions
+### Cube Spawner Replication
 
-
+    Cube spawner

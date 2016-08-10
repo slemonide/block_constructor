@@ -2,7 +2,7 @@
 A mod for minetest for generating constructions
 
 ## Types
-* Cube Spawner
+### Cube Spawner
 
     Simply an invisible object that gets to be at the *center* of the cube
 
@@ -20,9 +20,11 @@ A mod for minetest for generating constructions
         
         Example: neightbours = {(x1,y1,z1) = ["name1", "group:group1", ..], (x2,y2,z2) = ... }
 
-* Cube
+### Cube
 
     A part of a bigger construction. A Cube is spawned by Cube Spawner.
     Simply a decorative element.
 
 ## Actions
+
+
