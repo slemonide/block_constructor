@@ -29,7 +29,7 @@ Has a field called *neightbours*
 Cube spawners will replicate at certain time intervals in all directions that
 are set by *neightbours* field and *not occupied* by other cube spawners.
 
-When choosing which cube spawners are to be placed, [String] part of the
+When choosing which cube spawners are to be placed, **[String]** part of the
 *neightbours* field will be used. A table will be created that contains all
-cube spawners in *groups* listed in [String] and all cube spawners with *names*
-listed in [String].
+cube spawners in *groups* listed in **[String]** and all cube spawners with
+*names* listed in **[String]**.
