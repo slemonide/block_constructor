@@ -61,15 +61,15 @@ It can be used to illuminate some cubes with poor illumination.
 ## Loading
 
 ## File Structure
-* init.lua
-* cube_spawners.lua (contains definitions of cube spawners and logic related to
+* **init.lua**
+* **cube_spawners.lua** (contains definitions of cube spawners and logic related to
   spawning cubes)
-* replication.lua (contains cube spawners replication logic)
-* building_blocks.lua (contains included building blocks)
-* add_cubes.lua (contains tools for adding cubes ingame)
-* cubes/
-  * cube_name.lua (contains cube placing function and metadata (name and groups).
-* mts/
-  * cube_name.mts (optional)
-* groups/
-  * group_name.lua (contains )
+* **replication.lua** (contains cube spawners replication logic)
+* **building_blocks.lua** (contains included building blocks)
+* **add_cubes.lua** (contains tools for adding cubes ingame)
+* **cubes/**
+  * **cube_name.lua** (contains cube placing function and metadata (name and groups).
+* **mts/**
+  * **cube_name.mts** (optional)
+* **groups/**
+  * **group_name.lua** (contains neightbours fields for the group)
