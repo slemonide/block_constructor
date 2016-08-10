@@ -23,6 +23,9 @@ Has a field called *neightbours*
 
     A part of a bigger construction. A Cube is spawned by Cube Spawner.
     Simply a decorative element.
+    
+    A cube will be stored as an .mts file or as a function of position in the
+    local coordinate system.
 
 ## Actions
 ### Cube Spawner Replication
@@ -49,5 +52,5 @@ will be determined randomly.
 
 ## Miscellaneous
 **block_constructor:light{1-14}** will be a set of invisible blocks of type air
-with light value set to it (it will be equal to the number in the end of the name).
-It can be used to illuminate some blocks with poor illumination.
+with light value set to them (it will be equal to the number in the end of the name).
+It can be used to illuminate some cubes with poor illumination.
