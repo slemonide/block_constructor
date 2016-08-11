@@ -3,7 +3,9 @@ A mod for minetest for generating constructions
 
 ## Types
 ### Block
-A node. A part of a bigger construction.
+A node. A part of a bigger construction. A number of blocks might spawn the same
+node (because a number of blocks that spawn the same node might have different
+groups).
 
 Has a field called *name*
 
