@@ -51,6 +51,10 @@ It can be used to fix poor illumination.
 * **replication.lua** (contains logic related to replicating blocks)
 * **add_blocks.lua** (contains tools for adding blocks ingame)
 * **blocks/**
-  * **block_name.lua** (contains block placing function and metadata (name and groups)).
+  * **index.lua** (contains index of all block definitions; executed during loading)
+  * **block_name.lua** (contains block placing function and metadata (name and groups))
+  * **sub_dir/**
+    * **another_block_name.lua**
 * **groups/**
+  * **index.lua** (contains index of all group definitions)
   * **group_name.lua** (contains neightbours fields for the group)
